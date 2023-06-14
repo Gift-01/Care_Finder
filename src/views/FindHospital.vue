@@ -1,20 +1,16 @@
 <template>
-  <div class="home">
-    <NavBar />
-    <LandingPage />
-  </div>
+  <NavBar />
+  <div>Thanks for adding a to the list of hospitals</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import NavBar from "@/components/NavBar.vue";
-import LandingPage from "@/components/LandingPage.vue";
 
 export default defineComponent({
-  name: "HomeView",
+  name: "AddHospital",
   components: {
     NavBar,
-    LandingPage,
   },
 });
 </script>
